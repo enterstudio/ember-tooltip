@@ -1,10 +1,10 @@
+/* jshint node: true */
 /* global require, module */
 
 var EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 
 var app = new EmberAddon();
 
-app.import('vendor/tooltip.css');
 // Use `app.import` to add additional libraries to the generated
 // output files.
 //
@@ -17,5 +17,7 @@ app.import('vendor/tooltip.css');
 // modules that you would like to import into your application
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
+
+app.import('vendor/tooltip.css');
 
 module.exports = app.toTree();
