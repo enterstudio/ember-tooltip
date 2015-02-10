@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-tooltip",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gevious/ember-tooltip"
+    "url": "https://github.com/squirelabs/ember-tooltip"
   },
   "engines": {
     "node": ">= 0.10.0"
@@ -28,9 +28,9 @@
   "author": "Nico Gevers",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gevious/ember-tooltip/issues"
+    "url": "https://github.com/squirelabs/ember-tooltip/issues"
   },
-  "homepage": "https://github.com/gevious/ember-tooltip",
+  "homepage": "https://github.com/squirelabs/ember-tooltip",
   "devDependencies": {
     "broccoli-asset-rev": "^1.0.0",
     "ember-cli": "0.1.4",
